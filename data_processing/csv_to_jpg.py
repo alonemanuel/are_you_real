@@ -30,9 +30,14 @@ def prep_dirs(dir_name):
     return scrape_csv_file, output_folder_path
 
 
-def save_csvs_to_jpg():
+def save_csvs_to_jpg(dirs_to_parse=None):
     for dir_name in os.listdir(SCRAPE_FOLDERS_PATH):
-        print(f'Processing dir: {dir_name}...\n')
+        if dirs_to_parse and dir_name not in dirs_to_parse:
+            print(f'Skipping dir: {dir_name}...\n')
+            continue
+        else:
+            print(f'Processing dir: {dir_name}...\n')
+
         scrape_csv_file, output_folder_path = prep_dirs(dir_name)
         with open(scrape_csv_file, 'r', encoding='utf8') as csv_file:
             reader = csv.reader(csv_file)
