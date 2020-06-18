@@ -4,31 +4,53 @@
 
 import sys
 import urllib.request
-from csv import reader
+import csv
 import os.path
 
 # folder containing directories per instagram hashtag
-# e.g. 
+# e.g 'blogger_girl'
 SCRAPE_FOLDERS_PATH = "G:\My Drive\projects\\are_you_real\samples\instagram_scrape"
-
-
-csv_filename = os.path.join('..', 'samples', 'instagram_scrape', 'blogger_girl',
-                            'dataset_my-task_2020-06-15_14-05-27-033') if len(sys.argv) < 2 else sys.argv[1]
+JPG_FOLDER_EXT = '_jpgs'
+SCRAPE_FOLDER_EXT = '_scrape'
 DISPLAY_URL_INDEX = 5
+IS_RUN_FROM_CMD = len(sys.argv) > 1
 
-with open(csv_filename + ".csv".format(csv_filename), 'r', encoding="utf8") as csv_file:
-    reader = reader(csv_file)
-    next(reader)
-    for item_n, line in enumerate(reader):
-        print(f'processing item {item_n}')
 
-        image_url = line[DISPLAY_URL_INDEX]
-        if os.path.isfile("fullres/" + line[DISPLAY_URL_INDEX] + ".jpg"):
-            print("Image skipped for {0}".format(line[0]))
-        else:
-            try:
-                fn_save_path = (os.path.join('..', 'samples', 'instagram_scrape', 'blogger_girl', "fullres"))
-                urllib.request.urlretrieve(image_url, os.path.join(os.path.join(fn_save_path, f'{item_n}.jpg')))
-                print("Image saved for {0}".format(image_url))
-            except Exception as e:
-                print(f"No result for {image_url}, error:\n{e}")
+def prep_dirs(dir_name):
+    dir_abs_path = os.path.join(SCRAPE_FOLDERS_PATH, dir_name)
+    scrape_folder = os.path.join(dir_abs_path, dir_name + SCRAPE_FOLDER_EXT)
+    assert os.path.isdir(scrape_folder)
+    files_in_scrape_folder = os.listdir(scrape_folder)
+    assert len(files_in_scrape_folder) == 1
+    scrape_csv_file = os.path.join(scrape_folder, files_in_scrape_folder[0])
+    assert os.path.isfile(scrape_csv_file)
+
+    output_folder_path = os.path.join(dir_abs_path, dir_name + JPG_FOLDER_EXT)
+    os.makedirs(output_folder_path, exist_ok=True)
+    return scrape_csv_file, output_folder_path
+
+
+def save_csvs_to_jpg():
+    for dir_name in os.listdir(SCRAPE_FOLDERS_PATH):
+        print(f'Processing dir: {dir_name}...\n')
+        scrape_csv_file, output_folder_path = prep_dirs(dir_name)
+        with open(scrape_csv_file, 'r', encoding='utf8') as csv_file:
+            reader = csv.reader(csv_file)
+            next(reader)  # skip headers
+            for item_n, line in enumerate(reader):
+                output_fn = f'{dir_name}_{item_n}.jpg'
+                print(f'\nProcessing item {output_fn}')
+                output_absfn = os.path.join(output_folder_path, output_fn)
+                image_url = line[DISPLAY_URL_INDEX]
+
+                if os.path.isfile(output_absfn):
+                    print(f"Image skipped for {output_fn}")
+                else:
+                    try:
+                        urllib.request.urlretrieve(image_url, output_absfn)
+                        print(f"Image saved for {output_fn}")
+                    except Exception as e:
+                        print(f"No result for {output_fn}, error:\n{e}")
+
+
+save_csvs_to_jpg()
