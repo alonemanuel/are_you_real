@@ -1,5 +1,5 @@
 body {
-    background-color: #0d0d0d;
+    background-color: black;
 }
 
 @font-face {
@@ -9,12 +9,39 @@ body {
 
 @font-face {
     font-family: "Drugulin";
-    src: local("../res/fonts/VC_Drugulin-Display.otf");
+    src: local("res/fonts/VC_Drugulin-Display.otf");
+}
+
+@font-face {
+    font-family: Arbel;
+    src: url("res/fonts/ArbelG-Bold.otf") ;
+}
+
+h1 {
+    position: relative;
+    font-size: 150px;
+    left: 0;
+    text-align: center;
+    color: chartreuse;
+    -webkit-text-fill-color: chartreuse;
+    /*-webkit-text-stroke: black 1px;*/
+    font-family: Arbel, sans-serif;
 }
 
 h2 {
+
     font-family: "Drugulin", serif;
     color: aliceblue;
+}
+
+.fakeface {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("./res/fake_faces/img000000010.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h3 {
