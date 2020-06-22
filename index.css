@@ -4,11 +4,6 @@ body {
 }
 
 @font-face {
-    font-family: "Err Trr";
-    src: local("../res/fonts/Abel-Regular.ttf") ;
-}
-
-@font-face {
     font-family: "Drugulin";
     src: local("res/fonts/VC_Drugulin-Display.otf");
 }
@@ -40,18 +35,37 @@ h1 {
     font-family: Arbel, sans-serif;
 }
 
+.fakeface p {
+    position: relative;
+    font-size: 150px;
+    left: 0;
+    text-align: center;
+    color: chartreuse;
+    -webkit-text-fill-color: chartreuse;
+    /*-webkit-text-stroke: black 1px;*/
+    font-family: Arbel, sans-serif;
+    line-height: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px; /* between paragraphs */
+}
+
 h2 {
 
     font-family: "Drugulin", serif;
     color: aliceblue;
 }
 
+/*p {*/
+/*    line-height: 32px; !* within paragraph *!*/
+/*    margin-bottom: 30px; !* between paragraphs *!*/
+/*}*/
 .fakeface {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-image: url("./res/fake_faces/img000000010.jpg");
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background-size: 1024px 1024px;
+    background-image: url("res/fake_faces/img000000010.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
