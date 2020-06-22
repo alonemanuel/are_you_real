@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9ec12b2-dc28-4694-bb49-07eb569a0f82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/dataset_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/dataset_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/sample_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/sample_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake0.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake0.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,10 @@
       <recent name="G:\My Drive\projects\are_you_real\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="JavaScript Debug.fake0.html">
+    <configuration name="fake0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake0.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/are_you_real/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,8 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.csv_to_jpg" />
+        <item itemvalue="JavaScript Debug.fake0.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -124,6 +124,7 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
+      <workItem from="1592830052663" duration="32000" />
     </task>
     <servers />
   </component>
@@ -155,60 +156,5 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="557" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592610365904" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/sample_item.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/dataset_manager.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/dataset_manager.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/Program Files/Python38/Lib/pickle.py</url>
-          <line>1206</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/sample_item.py</url>
-          <line>205</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/sample_item.py</url>
-          <line>163</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/sample_item.py</url>
-          <line>154</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/sample_item.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_processing/dataset_manager.py</url>
-          <line>187</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/src$main.coverage" NAME="main Coverage Results" MODIFIED="1592750889224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
-    <SUITE FILE_PATH="coverage/src$csv_to_jpg.coverage" NAME="csv_to_jpg Coverage Results" MODIFIED="1592456429471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
   </component>
 </project>
