@@ -19,7 +19,6 @@ body {
 }
 
 .ganinfo {
-    direction: rtl;
     position: relative;
     font-size: 50px;
     left: 0;
@@ -31,7 +30,6 @@ body {
 }
 
 h1 {
-    direction: rtl;
     position: relative;
     font-size: 150px;
     left: 0;
