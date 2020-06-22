@@ -2,11 +2,22 @@ body {
     background-color: #0d0d0d;
 }
 
-h2 {
+@font-face {
+    font-family: "Err Trr";
+    src: local("../res/fonts/Abel-Regular.ttf") ;
+}
 
+@font-face {
+    font-family: "Drugulin";
+    src: local("../res/fonts/VC_Drugulin-Display.otf");
+}
+
+h2 {
+    font-family: "Drugulin", serif;
     color: aliceblue;
 }
 
 h3 {
+    font-family: 'Err Trr', sans-serif;
     color: chartreuse;
 }
