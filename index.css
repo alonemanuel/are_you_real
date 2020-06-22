@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    direction: rtl;
 }
 
 @font-face {
@@ -17,7 +18,20 @@ body {
     src: url("res/fonts/ArbelG-Bold.otf") ;
 }
 
+.ganinfo {
+    direction: rtl;
+    position: relative;
+    font-size: 50px;
+    left: 0;
+    text-align: center;
+    /*color: white;*/
+    -webkit-text-fill-color: white;
+    /*-webkit-text-stroke: black 1px;*/
+    font-family: Arbel, sans-serif;
+}
+
 h1 {
+    direction: rtl;
     position: relative;
     font-size: 150px;
     left: 0;
