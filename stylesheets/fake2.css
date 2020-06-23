@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: Arbel;
-    src: url("res/fonts/ArbelG-Bold.otf") ;
+    src: url("../res/fonts/ArbelG-Bold.otf") ;
 }
 
 .ganinfo {
@@ -32,6 +32,13 @@ h1 {
     color: chartreuse;
     -webkit-text-fill-color: chartreuse;
     /*-webkit-text-stroke: black 1px;*/
+    font-family: Arbel, sans-serif;
+}
+
+.contact {
+    color: white;
+    font-size: 15px;
+    text-align: center;
     font-family: Arbel, sans-serif;
 }
 
@@ -66,7 +73,7 @@ h2 {
     /*width: 100%;*/
     /*height: 100%;*/
     background-size: 1024px 1024px;
-    background-image: url("res/fake_faces/fake0.jpg");
+    background-image: url("../res/fake_faces/fake2.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }

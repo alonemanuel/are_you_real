@@ -4,7 +4,13 @@
     <list default="true" id="b9ec12b2-dc28-4694-bb49-07eb569a0f82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake0.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake4.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/fake_faces/img000000010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/fake_faces/img000000011.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,61 +59,29 @@
       <recent name="G:\My Drive\projects\are_you_real\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.fake0.html">
+  <component name="RunManager" selected="JavaScript Debug.fake3.html">
     <configuration name="fake0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake0.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/are_you_real/src/index.html" useBuiltInWebServerPort="true">
+    <configuration name="fake1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="csv_to_jpg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="are_you_real" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/csv_to_jpg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="fake2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="are_you_real" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="fake3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="fake4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.fake3.html" />
+        <item itemvalue="JavaScript Debug.fake4.html" />
         <item itemvalue="JavaScript Debug.fake0.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.fake1.html" />
+        <item itemvalue="JavaScript Debug.fake2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +99,7 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
-      <workItem from="1592830052663" duration="2422000" />
+      <workItem from="1592830052663" duration="5608000" />
     </task>
     <servers />
   </component>
@@ -137,6 +111,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="510" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1592488509598" />
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1592931295639">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592931295639" />
     <state width="1493" height="304" key="GridCell.Tab.0.bottom" timestamp="1592751343719">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
