@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/fake2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake4.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
-      <workItem from="1592830052663" duration="7342000" />
+      <workItem from="1592830052663" duration="7470000" />
     </task>
     <servers />
   </component>
@@ -132,5 +133,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="557" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592610365904" />
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1592951506349">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592951506349" />
   </component>
 </project>
