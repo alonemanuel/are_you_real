@@ -3,7 +3,9 @@ body {
     direction: rtl;
     font-family: ArbelRegular, sans-serif;
     -webkit-text-size-adjust: none;
-    font-size: 16pt     ;
+    margin: 0;
+
+    font-size: 16pt;
 }
 
 @font-face {
