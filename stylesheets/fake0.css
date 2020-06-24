@@ -17,22 +17,27 @@ body {
 }
 
 .fakeface {
-    background-size: contain;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    min-height: 1024px;
-    height: 100%;
+    /*background-size: contain;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*width: 100%;*/
+    /*min-height: 1024px;*/
+    /*max-height: 1024px;*/
+    height: 1024px;
     background-image: url("../res/fake_faces/fake0.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     font-family: ArbelBold, serif;
+    /*text-align: center;*/
 }
 
 .fakeface p {
-    position: relative;
-    font-size: 150px;
+    position: center;
+    font-size: 120px;
+    /*height: 100px;*/
+    width: 1024px;
+    right: 0;
     left: 0;
     text-align: center;
     -webkit-text-fill-color: #FF4F4F;
@@ -83,7 +88,7 @@ b {
 }
 
 .ganinfo {
-    /*position: relative;*/
+    position: relative;
     font-size: 25px;
     left: 0;
     text-align: center;
