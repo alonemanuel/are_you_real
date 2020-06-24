@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9ec12b2-dc28-4694-bb49-07eb569a0f82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake0.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake4.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/fake0.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/fake1.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/fake2.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/fake3.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/fake4.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake4.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +95,8 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
-      <workItem from="1592830052663" duration="26447000" />
+      <workItem from="1592830052663" duration="26746000" />
+      <workItem from="1592984119507" duration="87000" />
     </task>
     <servers />
   </component>
