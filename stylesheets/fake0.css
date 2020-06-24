@@ -64,6 +64,11 @@ body {
     margin-bottom: 0px; /* between paragraphs */
 }
 
+.dashed {
+    text-decoration-line: line-through;
+
+}
+
 b {
     font-family: ArbelBold, serif;
 }
