@@ -1,23 +1,84 @@
 body {
-    background-color: black;
+    background-color: #FFFFF8;
     direction: rtl;
+    font-family: ArbelRegular, sans-serif;
 }
 
 @font-face {
-    font-family: "Drugulin";
-    src: local("res/fonts/VC_Drugulin-Display.otf");
+    font-family: ArbelBold;
+    src: url("../res/fonts/ArbelG-Bold.otf");
 }
 
 @font-face {
-    font-family: Arbel;
-    src: url("../res/fonts/ArbelG-Bold.otf") ;
+    font-family: ArbelRegular;
+    src: url("../res/fonts/ArbelG-Regular.otf");
 }
+
+.fakeface {
+    background-size: contain;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 1024px;
+    height: 100%;
+    background-image: url("../res/fake_faces/fake0.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: ArbelBold, serif;
+}
+
+.fakeface p {
+    position: relative;
+    font-size: 150px;
+    left: 0;
+    text-align: center;
+    -webkit-text-fill-color: #FF4F4F;
+    /*-webkit-text-stroke: black 1px;*/
+    line-height: 150px;
+    letter-spacing: -7px;
+    margin-top: 0px;
+    margin-bottom: 0px; /* between paragraphs */
+}
+
+b {
+    font-family: ArbelBold, serif;
+}
+
+hr {
+    width: 50%;
+    height: 3px;
+    border-width: 0;
+    background-color: black;
+}
+
+h4 {
+    -webkit-text-fill-color: #FF4F4F;
+    font-size: 25px;
+
+}
+
+h5 {
+    -webkit-text-fill-color: black;
+    font-size: 25px;
+
+}
+
 
 .contact {
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: center;
-    font-family: Arbel, sans-serif;
+    font-family: ArbelBold;
+}
+
+a {
+    color: #FF4F4F;
+    text-decoration: none;
+}
+
+b {
+
 }
 
 .ganinfo {
@@ -28,8 +89,16 @@ body {
     /*color: white;*/
     -webkit-text-fill-color: white;
     /*-webkit-text-stroke: black 1px;*/
-    font-family: Arbel, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*text-line-through: single;*/
+
 }
+
+h5.b {
+    font-family: serif;
+}
+
 
 h1 {
     position: relative;
@@ -39,46 +108,16 @@ h1 {
     color: chartreuse;
     -webkit-text-fill-color: chartreuse;
     /*-webkit-text-stroke: black 1px;*/
-    font-family: Arbel, sans-serif;
 }
 
-.fakeface p {
-    position: relative;
-    font-size: 150px;
-    left: 0;
-    text-align: center;
-    color: chartreuse;
-    -webkit-text-fill-color: chartreuse;
-    /*-webkit-text-stroke: black 1px;*/
-    font-family: Arbel, sans-serif;
-    line-height: 150px;
-    letter-spacing: -7px;
-    margin-top: 0px;
-    margin-bottom: 0px; /* between paragraphs */
+
+h7 {
+    text-decoration-line: line-through;
+    text-decoration-color: black;
 }
 
 h2 {
 
     font-family: "Drugulin", serif;
     color: aliceblue;
-}
-
-/*p {*/
-/*    line-height: 32px; !* within paragraph *!*/
-/*    margin-bottom: 30px; !* between paragraphs *!*/
-/*}*/
-.fakeface {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    background-size: 1024px 1024px;
-    background-image: url("../res/fake_faces/fake0.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-h3 {
-    font-family: 'Err Trr', sans-serif;
-    color: chartreuse;
 }
