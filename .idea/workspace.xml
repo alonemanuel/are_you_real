@@ -63,7 +63,7 @@
       <recent name="G:\My Drive\projects\are_you_real\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.fake1.html">
+  <component name="RunManager" selected="JavaScript Debug.fake0.html">
     <configuration name="fake0.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage/fake0.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -81,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.fake1.html" />
         <item itemvalue="JavaScript Debug.fake0.html" />
+        <item itemvalue="JavaScript Debug.fake1.html" />
         <item itemvalue="JavaScript Debug.fake3.html" />
         <item itemvalue="JavaScript Debug.fake4.html" />
         <item itemvalue="JavaScript Debug.fake2.html" />
@@ -106,7 +106,7 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
-      <workItem from="1592830052663" duration="25638000" />
+      <workItem from="1592830052663" duration="26447000" />
     </task>
     <servers />
   </component>
