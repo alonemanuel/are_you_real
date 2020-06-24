@@ -2,6 +2,8 @@ body {
     background-color: #FFFFF8;
     direction: rtl;
     font-family: ArbelRegular, sans-serif;
+    -webkit-text-size-adjust: none;
+    /*font-size: 16px;*/
 }
 
 @font-face {
@@ -54,13 +56,12 @@ hr {
 
 h4 {
     -webkit-text-fill-color: #FF4F4F;
-    font-size: 25px;
 
 }
 
 h5 {
     -webkit-text-fill-color: black;
-    font-size: 25px;
+
 
 }
 
@@ -82,8 +83,8 @@ b {
 }
 
 .ganinfo {
-    position: relative;
-    font-size: 50px;
+    /*position: relative;*/
+    font-size: 25px;
     left: 0;
     text-align: center;
     /*color: white;*/
