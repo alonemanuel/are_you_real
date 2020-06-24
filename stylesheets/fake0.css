@@ -56,7 +56,7 @@ body {
     right: 0;
     left: 0;
     text-align: center;
-    -webkit-text-fill-color: #FF4F4F;
+    -webkit-text-fill-color: black;
     /*-webkit-text-stroke: black 1px;*/
     line-height: 150px;
     letter-spacing: -7px;
@@ -76,13 +76,15 @@ hr {
 }
 
 h4 {
-    -webkit-text-fill-color: #FF4F4F;
+    -webkit-text-fill-color: #FF6666;
     font-size: inherit;
+    font-weight: inherit;
 }
 
 h5 {
     font-size: inherit;
     -webkit-text-fill-color: black;
+    font-weight: inherit;
 }
 
 
@@ -113,7 +115,7 @@ h1 {
 
 h7 {
     text-decoration-line: line-through;
-    text-decoration-color: black;
+    text-decoration-color: #FF6666;
 }
 
 h2 {
@@ -130,7 +132,7 @@ h2 {
     right: 0;
     left: 0;
     text-align: center;
-    -webkit-text-fill-color: #FF4F4F;
+    -webkit-text-fill-color: #FF6666;
     /*-webkit-text-stroke: black 1px;*/
     line-height: 150px;
     letter-spacing: -7px;
