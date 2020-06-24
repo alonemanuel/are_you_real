@@ -8,8 +8,13 @@
       <change beforePath="$PROJECT_DIR$/fake2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fake4.html" beforeDir="false" afterPath="$PROJECT_DIR$/fake4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/fake0.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/fake1.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/fake2.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/fake3.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/fake4.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/fake4.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +106,7 @@
       <workItem from="1592383649669" duration="3000" />
       <workItem from="1592455638236" duration="26718000" />
       <workItem from="1592621395590" duration="16711000" />
-      <workItem from="1592830052663" duration="24162000" />
+      <workItem from="1592830052663" duration="24660000" />
     </task>
     <servers />
   </component>
@@ -141,9 +146,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1592969524260" />
-    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1592971768336">
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1592973225468">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592971768336" />
+    <state x="431" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592973225468" />
   </component>
 </project>
