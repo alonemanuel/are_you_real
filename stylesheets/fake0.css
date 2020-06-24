@@ -77,19 +77,18 @@ hr {
 
 h4 {
     -webkit-text-fill-color: #FF4F4F;
-
+    font-size: inherit;
 }
 
 h5 {
+    font-size: inherit;
     -webkit-text-fill-color: black;
-
-
 }
 
 
 .contact {
     color: black;
-    font-size: 15px;
+    font-size: 1.5em;
     text-align: center;
     font-family: ArbelBold;
 }
@@ -99,20 +98,12 @@ a {
     text-decoration: none;
 }
 
-b {
-
-}
-
-
-h5.b {
-    font-family: serif;
-}
-
 
 h1 {
     position: relative;
     font-size: 150px;
     left: 0;
+
     text-align: center;
     color: chartreuse;
     -webkit-text-fill-color: chartreuse;
@@ -129,4 +120,20 @@ h2 {
 
     font-family: "Drugulin", serif;
     color: aliceblue;
+}
+
+.ending {
+    position: center;
+    font-size: 120px;
+    /*height: 100px;*/
+    /*width: 1024px;*/
+    right: 0;
+    left: 0;
+    text-align: center;
+    -webkit-text-fill-color: #FF4F4F;
+    /*-webkit-text-stroke: black 1px;*/
+    line-height: 150px;
+    letter-spacing: -7px;
+    margin-top: 0px;
+    margin-bottom: 0px; /* between paragraphs */
 }
