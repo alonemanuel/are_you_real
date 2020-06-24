@@ -12,6 +12,11 @@ body {
     font-family: ArbelBold;
     src: url("../res/fonts/ArbelG-Bold.otf");
 }
+@font-face {
+    font-family: ArbelMedium;
+    src: url("../res/fonts/ArbelG-Medium.otf");
+}
+
 
 @font-face {
     font-family: ArbelRegular;
@@ -58,7 +63,7 @@ body {
     text-align: center;
     -webkit-text-fill-color: black;
     /*-webkit-text-stroke: black 1px;*/
-    line-height: 150px;
+    /*line-height: 150px;*/
     letter-spacing: -7px;
     margin-top: 0px;
     margin-bottom: 0px; /* between paragraphs */
@@ -68,9 +73,28 @@ body {
     text-decoration-line: line-through;
 
 }
+.subtitle {
+    position: center;
+    font-size: 80px;
+    /*height: 100px;*/
+    /*width: 1024px;*/
+    right: 0;
+    left: 0;
+    text-align: center;
+    -webkit-text-fill-color: #FF6666;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    /*text-underline-style: single;*/
+    /*text-underline: black;*/
+    /*-webkit-text-stroke: black 1px;*/
+    /*line-height: 150px;*/
+    /*letter-spacing: -7px;*/
+    margin-top: 0px;
+    margin-bottom: 0px; /* between paragraphs */
+}
 
 b {
-    font-family: ArbelBold, serif;
+    font-family: ArbelMedium, serif;
 }
 
 hr {
